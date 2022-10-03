@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Walk : MonoBehaviour
 {
@@ -18,11 +19,12 @@ public class Walk : MonoBehaviour
     
     void Update()
     {
-        if (characterController.isGrounded)
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+            moveDirection = new Vector3(0.0f, 0.0f, 6.0f);
             moveDirection *= speed;
         }
+
         characterController.Move(moveDirection * Time.deltaTime);
     }
 }
