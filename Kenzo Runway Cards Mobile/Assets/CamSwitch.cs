@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstCam : MonoBehaviour
+public class CamSwitch : MonoBehaviour
 {
 
     public GameObject cameraOff;
@@ -13,18 +13,10 @@ public class FirstCam : MonoBehaviour
 
     void Start()
     {
-        cameraNumber = 1;
 
     }
 
 
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            cameraOff.SetActive(true);
-            cameraOn.SetActive(false);
-        }
-    }
+    
 }
