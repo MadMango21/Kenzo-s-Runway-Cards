@@ -1,20 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PoseCard : MonoBehaviour
+{ 
+/*public Button Text;
+    public AudioClip sound;
+    public Animator ani;
+    public Canvas yourcanvas;
 
-{
-    public Animator anim;
-    public Animation pose1;
+
 
     void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+        Text = Text.GetComponent<Button>();
+        ani.enabled = false;
+        yourcanvas.enabled = true;
     }
 
-   public void Pose()
+
+    public void Press()
+
     {
-        anim.Play("Pose");
-    }
+        Text.enabled = true;
+        AudioSource.PlayClipAtPoint(sound, transform.position);
+        ani.enabled = true;
+
+
+    }*/
 }
