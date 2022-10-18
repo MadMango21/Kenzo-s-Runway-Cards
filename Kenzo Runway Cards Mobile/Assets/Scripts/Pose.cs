@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pose : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Pose : MonoBehaviour
     public void ChangePose()
     {
         Debug.Log("Pose");
-        anim.SetTrigger("Pose");
+        anim.SetTrigger("Pose 1");
     }
 
 }
