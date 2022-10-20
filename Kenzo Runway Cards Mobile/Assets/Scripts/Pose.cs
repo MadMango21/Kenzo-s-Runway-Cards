@@ -6,7 +6,7 @@ using UnityEngine.Animations;
 
 public class Pose : MonoBehaviour
 {
-    Animator anim;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,10 @@ public class Pose : MonoBehaviour
 
     public void ChangePose()
     {
+
         Debug.Log("Pose");
-        anim.SetTrigger("Pose 1");
+        
+        anim.SetBool("Pose1", true);
     }
 
 }
