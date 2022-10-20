@@ -21,8 +21,6 @@ public class CardAppear : MonoBehaviour
     {
         timer = timer + Time.deltaTime;
 
-        Debug.Log(timer);
-
         if (timer > 10f)
         {
             timer = 0f;
