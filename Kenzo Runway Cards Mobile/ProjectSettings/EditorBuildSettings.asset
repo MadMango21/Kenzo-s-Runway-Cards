@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 790ffa78f226f8646ae7079de72d4b70
+  - enabled: 1
+    path: Assets/Scenes/Show Spring summer 1.unity
+    guid: cd94daa42307af849afa1340f25e63cf
+  - enabled: 1
+    path: Assets/Scenes/Show Autimn & Winter.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: db532aff79606ff419c94f00fcd967da
   m_configObjects: {}
