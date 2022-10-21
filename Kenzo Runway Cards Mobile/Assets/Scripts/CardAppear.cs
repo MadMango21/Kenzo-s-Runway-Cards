@@ -13,7 +13,7 @@ public class CardAppear : MonoBehaviour
     void Start()
     {
         ColourCard.SetActive(false);
-        PoseCard.SetActive(false);
+        PoseCard.SetActive(true);
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class CardAppear : MonoBehaviour
     {
         timer = timer + Time.deltaTime;
 
-        if (timer > 10f)
+        if (timer > 5f)
         {
             timer = 0f;
 

@@ -761,8 +761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e306fe8f7ad35f4c8d152c849f9e8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColourCard: {fileID: 1364359929}
-  PoseCard: {fileID: 291709386}
+  ColourCard: {fileID: 291709386}
+  PoseCard: {fileID: 1364359929}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
