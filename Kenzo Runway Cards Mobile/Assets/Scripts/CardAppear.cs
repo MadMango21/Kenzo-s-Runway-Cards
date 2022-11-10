@@ -21,7 +21,7 @@ public class CardAppear : MonoBehaviour
     {
         timer = timer + Time.deltaTime;
 
-        if (timer > 5f)
+        if (timer > 10f)
         {
             timer = 0f;
 
